@@ -3,13 +3,13 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 
-#微信
+#豆果美食
 cap={
   "platformName": "Android",
-  "platformVersion": "5.1.1",
-  "deviceName": "emulator-5554",
-  "appPackage": "com.tencent.mm",
-  "appActivity": ".ui.LauncherUI"
+  "platformVersion": "4.4.2",
+  "deviceName": "127.0.0.1:62001",
+  "appPackage": "com.douguo.recipe",
+  "appActivity": ".HomeActivity"
 }
 
 driver=webdriver.Remote('http://localhost:4723/wd/hub',cap)
